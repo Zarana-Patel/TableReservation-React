@@ -1,53 +1,84 @@
-# Simple React JS Table reservation for restaurant Project
+# 🍽️ Simple React JS Table Reservation for Restaurant Project
 
-## What is the use of this Repo
+## 📌 What is the use of this Repo
 
-This Project is a Simple ReactJS Project which demonstrates the following
-1. Table reservation feature for restaurant in React
-2. Communicating between parent and child component
-3. Using Bootstrap along with React
+This project can serve as a template for building more complex restaurant or event booking systems.
+**Project Structure & Components**
+1. App.js: Main entry point for the app logic
+2. ReservationForm.js: Form component for booking a table
+3. ReservationList.js: Displays the list of booked tables
+4. ConfirmationModal.js: (If included) Displays success or confirmation modals
 
+## 🚀 Live Demo
+Check out the live version here:
+👉 [View Live Demo on GitHub Pages](https://zarana-patel.github.io/TableReservation-React/)
+---
+## 📸 App Screenshots
 
-The project Template can be used to build bigger projects
+📋 Website Main Page
+![Form and Table](./assets/Screen1.png)
+### 📊 Reservation List
+![Date Picker](./assets/Screen2.png)
+📱 Mobile Responsive View
+![Record Added](./assets/Screen3.png)
+---
 
+## 🛠 Prerequisites
 
-## Prerequisites
+- Node.js
+- npm
+- Basic React knowledge
+- React Bootstrap
 
-### Install Node JS
-Refer to https://nodejs.org/en/ to install nodejs
-
-### Install create-react-app
-Install the create-react-app npm package globally. This will help to easily run the project and also build the source files easily. Use the following command to install create-react-app
+Install the React app tool globally if needed:
 
 ```bash
 npm install -g create-react-app
 ```
-## Live Application URL
-Click on the link to see the application
-[TableReservation-React](https://zarana-patel.github.io/TableReservation-React/)
 
-## Cloning and Running the Application in local
+---
 
-Clone the project into a local
+## 📥 Clone and Run Locally
 
-Install all the npm packages. Go into the project folder and type the following command to install all npm packages
+Follow these steps to run the app on your local machine:
+
+1. **Clone the Repository**:
+
+```bash
+git clone https://github.com/zarana-patel/TableReservation-React.git
+
+cd TableReservation-React
+```
+
+2. **Install Dependencies**:
+
 ```bash
 npm install
 ```
-To run the application Type the following command
+
+3. **Start the Development Server**:
 
 ```bash
 npm start
 ```
 
-The Application Runs on **localhost:3000**
+This will launch the app in your browser at 👉 `http://localhost:3000`
 
-## Resources
+---
 
-**create-react-app**: https://github.com/facebook/create-react-app
+## 🧩 Components
 
-**ReactJS**: https://reactjs.org/ 
+- `App.js`: Root component that maintains state and handles record list updates.
+- `RecordForm.js`: Form to input name and birthday date.
+- `RecordTable.js`: Displays the list of records in a table.
+- `RecordRow.js`: Represents each individual record row with a delete option.
 
-**React Bootstrap**:https://react-bootstrap.github.io/getting-started/introduction/ 
+---
 
-**Formik** :https://formik.org/docs/api/formik 
+## 📚 Resources
+
+- [React Documentation](https://reactjs.org/)
+- [React Bootstrap Docs](https://react-bootstrap.github.io/)
+- [Create React App Guide](https://github.com/facebook/create-react-app)
+- [Formik Docs](https://formik.org/docs/api/formik)
+
