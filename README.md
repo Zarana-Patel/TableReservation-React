@@ -18,9 +18,14 @@ Check out the live version here:
 📋 Website Main Page
 ![Form and Table](./assets/Screen1.png)
 ### 📊 Reservation List
+![Date Picker](./assets/Screen3.png)
 ![Date Picker](./assets/Screen2.png)
+
+### 📊 Confirmation 
+![Confirmation](./assets/Screen4.png)
+
 📱 Mobile Responsive View
-![Record Added](./assets/Screen3.png)
+![Mobile View](./assets/Screen6.png)
 ---
 
 ## 🛠 Prerequisites
